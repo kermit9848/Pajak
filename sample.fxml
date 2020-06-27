@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #3a8c3e;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.KendaraanController">
+   <children>
+      <Pane layoutX="97.0" prefHeight="362.0" prefWidth="401.0" style="-fx-background-color: #3232;" />
+      <Pane layoutX="113.0" prefHeight="347.0" prefWidth="368.0" style="-fx-background-color: #003152; -fx-border-color: #3a8c3e;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="57.0" text="Selamat Datang!" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="MobilButton" layoutX="160.0" layoutY="280.0" mnemonicParsing="false" onAction="#MobilButtonOnAction" prefHeight="17.0" prefWidth="120.0" text="Mobil" textFill="#3a8c3e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="MotorButton" layoutX="321.0" layoutY="280.0" mnemonicParsing="false" onAction="#MotorButtonOnAction" prefHeight="37.0" prefWidth="120.0" text="Motor" textFill="#3a8c3e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="180.0" layoutY="154.0" text="Silakan pilih kategori dibawah!" textFill="#3a8c3e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView blendMode="MULTIPLY" fitHeight="80.0" fitWidth="106.0" layoutX="178.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mobil2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="MULTIPLY" fitHeight="39.0" fitWidth="92.0" layoutX="339.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@motor.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="516.0" layoutY="344.0" mnemonicParsing="false" onAction="#backButtonAction" text="Back" textFill="#3a8c3e" />
+   </children>
+</AnchorPane>

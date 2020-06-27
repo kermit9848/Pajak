@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #3a8c3e;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="261.0" style="-fx-border-color: #3a8c3e; -fx-background-color: #003152;">
+         <children>
+            <ImageView fitHeight="91.0" fitWidth="118.0" layoutX="78.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@polantas2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="7.0" layoutY="122.0" text="KEPOLISIAN REPUBLIK INDONESIA" textAlignment="CENTER" textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="37.0" layoutY="260.0" text="POLANTAS JABODETABEK" textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane1" layoutX="262.0" prefHeight="400.0" prefWidth="338.0" style="-fx-border-color: #3a8c3e;">
+         <children>
+            <Label layoutX="137.0" layoutY="29.0" text="LOGIN" textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button layoutX="166.0" layoutY="266.0" mnemonicParsing="false" onAction="#LoginButtonOnAction" text="Login" />
+            <TextField fx:id="UsernameF" layoutX="114.0" layoutY="186.0" promptText="email" style="-fx-border-color: #3a8c3e;" />
+            <Label layoutX="51.0" layoutY="191.0" text="EMAIL :" textFill="#3a8c3e" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="225.0" text="PASSWORD :" textFill="#3a8c3e" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordF" layoutX="114.0" layoutY="220.0" promptText="password" style="-fx-border-color: #3a8c3e;" />
+            <ImageView fx:id="exit" blendMode="MULTIPLY" fitHeight="50.0" fitWidth="43.0" layoutX="243.0" layoutY="328.0" onMouseClicked="#ExitButtonOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@close2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="110.0" text="Welcome," textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="142.0" text="Sign in to continue" textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Pane layoutX="-1.0" prefHeight="400.0" prefWidth="19.0" />
+            <TextArea fx:id="comment" editable="false" layoutX="30.0" layoutY="324.0" prefHeight="50.0" prefWidth="183.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

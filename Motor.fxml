@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #3a8c3e;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MotorController">
+   <children>
+      <Pane layoutX="127.0" prefHeight="400.0" prefWidth="349.0" style="-fx-background-color: #003152; -fx-border-color: #3a8c3e;">
+         <children>
+            <Pane layoutX="-19.0" prefHeight="400.0" prefWidth="388.0" style="-fx-background-color: #3232;">
+               <children>
+                  <Label layoutX="28.0" layoutY="54.0" prefHeight="26.0" prefWidth="332.0" text="APLIKASI PERHITUNGAN PAJAK MOTOR" textFill="#3a8c3e">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Label layoutX="147.0" layoutY="108.0" text="Masukan PKB" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="142.0" layoutY="144.0" text="Masukkan SWK" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="139.0" layoutY="182.0" text="Masukkan Bulan" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="swkField" layoutX="293.0" layoutY="140.0" prefHeight="25.0" prefWidth="176.0" />
+      <TextField fx:id="bulanField" layoutX="293.0" layoutY="178.0" prefHeight="25.0" prefWidth="176.0" />
+      <Button fx:id="hitungButton" layoutX="287.0" layoutY="228.0" mnemonicParsing="false" onAction="#showDataButtonAction" text="Hitung Pajak" textFill="#3a8c3e" />
+      <TextArea fx:id="hasilArea" editable="false" layoutX="233.0" layoutY="265.0" prefHeight="113.0" prefWidth="192.0" style="-fx-border-color: #3a8c3e;" />
+      <Button fx:id="backButton" layoutX="534.0" layoutY="353.0" mnemonicParsing="false" onAction="#backButtonAction" text="Back" textFill="#3a8c3e" />
+      <TextField fx:id="pkbField" layoutX="293.0" layoutY="104.0" prefHeight="25.0" prefWidth="176.0" />
+   </children>
+</AnchorPane>

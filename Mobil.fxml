@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #3a8c3e;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MobilController">
+   <children>
+      <Pane layoutX="122.0" prefHeight="400.0" prefWidth="360.0" style="-fx-background-color: #003152; -fx-border-color: #3a8c3e;">
+         <children>
+            <Label layoutX="19.0" layoutY="44.0" prefHeight="31.0" prefWidth="322.0" text="APLIKASI PERHITUNGAN PAJAK MOBIL" textAlignment="CENTER" textFill="#3a8c3e">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Pane layoutX="-20.0" prefHeight="400.0" prefWidth="399.0" style="-fx-background-color: #3232;" />
+         </children>
+      </Pane>
+      <Label layoutX="142.0" layoutY="107.0" text="Masukan PKB" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="143.0" text="Masukkan SWK" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="134.0" layoutY="181.0" text="Masukkan Bulan" textFill="#3a8c3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="swkField" layoutX="288.0" layoutY="139.0"  />
+      <TextField fx:id="bulanField" layoutX="288.0" layoutY="177.0"  />
+      <Button fx:id="hitungButton" layoutX="282.0" layoutY="227.0" mnemonicParsing="false" onAction="#showDataButtonAction"  text="Hitung Pajak" textFill="#3a8c3e" />
+      <TextArea fx:id="hasilArea" editable="false" layoutX="228.0" layoutY="264.0" prefHeight="113.0" prefWidth="192.0"  />
+      <Button fx:id="backButton" layoutX="534.0" layoutY="353.0" mnemonicParsing="false" onAction="#backButtonAction" text="Back" textFill="#3a8c3e" />
+      <TextField fx:id="pkbField" layoutX="288.0" layoutY="103.0"  />
+   </children>
+</AnchorPane>

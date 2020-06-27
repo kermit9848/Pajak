@@ -1,0 +1,53 @@
+.button{
+    -fx-font-weight: bold;
+    -fx-background-color: #3a8c3e;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-text-fill: #3a8c3e;
+    -fx-border-color: #3a8c3e;
+    -fx-border-radius: 20;
+    -fx-border-width: 1;
+}
+
+.button:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-text-fill: #3a8c3e;
+    -fx-border-color: #3a8c3e;
+    -fx-border-radius: 20;
+    -fx-border-width: 1;
+    -fx-rotate: 3;
+}
+
+.text-field{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-text-fill: #3a8c3e;
+    -fx-border-color: #3a8c3e;
+    -fx-border-radius: 20;
+    -fx-border-width: 1;
+}
+
+.text-area{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 12;
+    -fx-text-fill: #3a8c3e;
+    -fx-border-color: #3a8c3e;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
